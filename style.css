@@ -1,0 +1,145 @@
+body{
+    background:#222;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+button:hover{
+    background: #00f;
+    color: #fff;
+}
+
+
+#Main{
+    margin: 2px;
+    padding: 2px;
+}
+
+table{
+    margin: 2px;
+    width: 100%;
+}
+
+table td{
+    padding: 2px;
+    border: 1px solid #fff;
+}
+
+table td>button{
+    margin: 2px;
+    height: 40px;
+    font-size: 20px;
+}
+
+table tr.select{
+    background: #0f0;
+    color: #000;
+}
+
+
+div#Team{
+
+    display: flex;
+}
+
+div#Team>div{
+    display: grid;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+div#Team>div.dead{
+    color: #555;
+}
+
+
+div#Team>div>div{
+    display: grid;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+div#Skill{
+    text-align: left;
+}
+
+div#Skill>div{
+    width: 150px;
+    height: 150px;
+    cursor: grab;
+    display: inline-grid;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+div#Skill>div:active{
+    cursor: grabbing;
+}
+
+
+div#Battle{
+    display: inline-block;
+}
+
+div#BattleInfo{
+    display: grid;
+    font-size: 20px;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+}
+
+div#Monster{
+    font-size: 30px;
+    border: 1px solid #fff;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+div#HpLine{
+    margin-top: 10px;
+    height: 20px;
+    width: 100%;
+    background: linear-gradient(to right, #0d0 50% , #fff 0%);
+    border-radius: 10px;
+}
+
+div#SearchFriendsLine{
+    margin-top: 10px;
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #0d0 50% , #fff 0%);
+    border-radius: 10px;
+
+}
+
+
+
+
+.pop{
+    background: #666d;
+    min-width: 200px;
+    min-height: 80px;
+    border: 2px solid #00f;
+    border-radius: 10px;
+    top: 20%;
+    left: 30%;
+    padding: 10px;
+    text-align: left;
+    position: absolute;
+}
+
+.pop div{
+    margin-bottom: 6px;
+}
